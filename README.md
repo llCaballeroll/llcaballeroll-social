@@ -6,7 +6,10 @@ Página web personal tipo Linktree para centralizar las redes sociales oficiales
 
 Esta página está pensada para reemplazar servicios externos de enlaces y tener una página propia, limpia, responsiva y alojada en GitHub Pages.
 
-## Redes incluidas
+## Enlaces incluidos
+
+- Proyectos (juegos, apps y libro)
+- Portafolio
 
 - Facebook
 - Instagram
@@ -20,8 +23,8 @@ Esta página está pensada para reemplazar servicios externos de enlaces y tener
 - CSS3
 - Diseño responsivo
 - Modo oscuro
-- Estilo visual moderno tipo Apple
-- Logos externos mediante Simple Icons CDN
+- Estilo visual basado en la guía de diseño de Apple (awesome-design-md)
+- Logos de Simple Icons integrados en el HTML (sin dependencias externas)
 
 ## Estructura del proyecto
 
@@ -31,5 +34,6 @@ llcaballeroll-social/
 ├── css/
 │   └── styles.css
 ├── img/
-│   └── perfil.png
+│   ├── perfil.jpg
+│   └── opt/            ← versiones ligeras que usa la página
 └── README.md
